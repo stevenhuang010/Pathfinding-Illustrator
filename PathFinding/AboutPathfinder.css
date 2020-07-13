@@ -1,0 +1,33 @@
+.column {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+h2  {
+  font-family: 'Work Sans', sans-serif;
+  color: orchid;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+li, p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  color: gray;
+}
+
+body {
+  background-color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  text-align: center;
+}
