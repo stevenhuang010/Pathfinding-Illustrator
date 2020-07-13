@@ -113,6 +113,7 @@ public class PathfindingGUI extends Application {
 		
 		stage.setTitle("Path Finder");
 		model = new PathfindingModel();
+		//Initializes model and 2D rectangle array
 		model.initializeGrid(NUM_ROWS, NUM_COLS);
 		rectangles = new Rectangle[NUM_ROWS][NUM_COLS];
 		//VBOX
