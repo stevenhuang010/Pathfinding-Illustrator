@@ -111,7 +111,7 @@ public class PathfindingGUI extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 		
-		stage.setTitle("Path Finder");
+		stage.setTitle("PathFinder");
 		model = new PathfindingModel();
 		//Initializes model and 2D rectangle array
 		model.initializeGrid(NUM_ROWS, NUM_COLS);
