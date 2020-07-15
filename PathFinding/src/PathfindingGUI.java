@@ -673,7 +673,7 @@ public class PathfindingGUI extends Application {
 				String url = f.getAbsolutePath();
 				engine.load("file:///" + url);
 				instructionPage = new Stage();
-				instructionPage.setTitle("About Pathfinder");
+				instructionPage.setTitle("About PathFinder");
 				Scene scene = new Scene(webView, 1300, 550);
 				instructionPage.setScene(scene);
 				instructionPage.show();
