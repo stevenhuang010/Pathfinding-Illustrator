@@ -197,7 +197,7 @@ public class PathfindingGUI extends Application {
 		finishAlgorithm = new Button("Finish Algorithm");
 		finishAlgorithm.setOnAction(new ButtonHandler());
 		//Creates About Button
-		about = new Button("About Pathfinder");
+		about = new Button("About PathFinder");
 		about.setOnAction(new AboutHandler());
 		//Initialize label with slider text
 		initializeSliderText();
