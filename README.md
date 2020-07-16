@@ -25,7 +25,7 @@ Implemented algorithms include:
   <img src = "https://user-images.githubusercontent.com/63945057/87724448-58e6b280-c770-11ea-93b9-3d0485f45656.gif">
 </p>
 
-- After a pathfinding algorithm concludes, the user can drag the start or end node to any place on the grid and the pathfinding algorithm will update in real time, continuing to show the shortest path as the user drags the circular node.
+- After a pathfinding algorithm concludes, the user can drag the start or end node to any place on the grid and the pathfinding algorithm will update in real time, continuing to shade the visited nodes purple and show the shortest path (if it exists) as the user drags the circular node.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/63945057/87723357-90ecf600-c76e-11ea-83fb-fa8fb96d596a.gif">
