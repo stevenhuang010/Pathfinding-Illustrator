@@ -14,7 +14,7 @@ Implemented algorithms include:
 - The light pink circle represents the start node and the light blue circle represents the end node. These nodes can be dragged and dropped at different locations on the grid. Wall nodes are the squares shaded in a dark-purple color, and these nodes are impassable for pathfinding algorithms.
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/63945057/87722101-5bdfa400-c76c-11ea-90bd-a9bbe112c432.png">
+  <img src = "https://user-images.githubusercontent.com/63945057/87722205-8b8eac00-c76c-11ea-8fb9-f2d9a6761652.png">
 </p>       
                                                                                                                    
 - When a pathfinding algorithm is executed (located at the top of the application), the square-shaped grid nodes that the algorithm has visited will change to a light-purple color to showcase how the algorithm works, while the unvisited nodes remain white. Since wall nodes are impassable, they will remain dark-purple during the algorithm. If a path from the start node to the end node exists, a light blue path will be drawn at the conclusion of the algorithm. Otherwise, no path will be drawn.
