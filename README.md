@@ -25,10 +25,14 @@ Implemented algorithms include:
 
 - After a pathfinding algorithm concludes, the user can drag the start or end node to any place on the grid and the pathfinding algorithm will update in real time, continuing to show the shortest path as the user drags the circular node.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/63945057/87723357-90ecf600-c76e-11ea-83fb-fa8fb96d596a.gif">
+</p>
+
 - When a maze generation algorithm is executed, dark-purple walls will be added, so that pathfinding algorithms must go around them when looking for a valid path.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/63945057/87717691-a90c4780-c765-11ea-8306-046310cedadc.png">
+  <img src="https://user-images.githubusercontent.com/63945057/87722920-cba25e80-c76d-11ea-80cf-573e74cb9bf6.gif">
 </p>
 
 - The user is also able to add walls or erase walls by checking the Draw Wall checkbox or Erase Wall checkbox, respectively, and dragging their mouse across the grid.
