@@ -19,6 +19,10 @@ Implemented algorithms include:
                                                                                                                    
 - When a pathfinding algorithm is executed (located at the top of the application), the square-shaped grid nodes that the algorithm has visited will change to a light-purple color to showcase how the algorithm works, while the unvisited nodes remain white. Since wall nodes are impassable, they will remain dark-purple during the algorithm. If a path from the start node to the end node exists, a light blue path will be drawn at the conclusion of the algorithm. Otherwise, no path will be drawn.
 
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/63945057/87722920-cba25e80-c76d-11ea-80cf-573e74cb9bf6.gif">
+</p>
+
 - After a pathfinding algorithm concludes, the user can drag the start or end node to any place on the grid and the pathfinding algorithm will update in real time, continuing to show the shortest path as the user drags the circular node.
 
 - When a maze generation algorithm is executed, dark-purple walls will be added, so that pathfinding algorithms must go around them when looking for a valid path.
