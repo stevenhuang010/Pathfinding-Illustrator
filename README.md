@@ -32,7 +32,7 @@ Implemented algorithms include:
 - When a maze generation algorithm is executed, dark-purple walls will be added, so that pathfinding algorithms must go around them when looking for a valid path.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/63945057/87722920-cba25e80-c76d-11ea-80cf-573e74cb9bf6.gif">
+  <img src="https://user-images.githubusercontent.com/63945057/87723092-1fad4300-c76e-11ea-8dca-6d277a7240e7.gif">
 </p>
 
 - The user is also able to add walls or erase walls by checking the Draw Wall checkbox or Erase Wall checkbox, respectively, and dragging their mouse across the grid.
