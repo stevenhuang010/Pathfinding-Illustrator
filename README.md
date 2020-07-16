@@ -41,6 +41,7 @@ Implemented algorithms include:
 ## Other Features
 The folowing extra features are included at the bottom of the application.
 
+- <p> About PathFinder - Opens a new stage with information about this application </p>
 - <p> Clear Board - Clears all animations and walls </p>
 - <p> Speed Slider - Changes the animation speed </p>
 - <p> Draw Wall - If this box is checked, the user can draw walls on the board by dragging the mouse across the grid </p>
