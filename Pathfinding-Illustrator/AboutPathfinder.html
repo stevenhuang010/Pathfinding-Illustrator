@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+    <title> About Pathfinder </title>
+    <link href = AboutPathfinder.css rel = "stylesheet" type = text/css />
+  </head>
+  <body>
+    <div class = "row">
+      <div class = "column">
+        <h2> Algorithms </h2>
+        <p> At  the top of the application, there are several different algorithms
+          that are either used for pathfinding (finding a path from the start node to
+          the end node) or used for generating mazes. </p>
+        <ul>
+          <li> Dijkstra's Algorithm - Pathfinding </li>
+          <li> A* - Pathfinding </li>
+          <li> Breadth-First Search - Pathfinding </li>
+          <li> Depth-First Search - Pathfinding </li>
+          <li> Bidirectional Search - Pathfinding </li>
+          <li> Prim's Maze Generation - Maze Generation </li>
+          <li> Recursive Maze Generation - Maze Generation </li>
+        </ul>
+      </div>
+      <div class = "column">
+        <h2> Nodes </h2>
+        <p>
+          <p> On the grid, the pink circular node is the start node and the blue circular node is the end node. </p>
+
+          <p> When a pathfinding algorithm is executed, the square-shaped grid nodes that the algorithm has visited
+              will change to a light-purple color to showcase how the algorithm works, while the unvisited nodes remain white.
+              Since wall nodes are impassable, they will remain dark-purple during the algorithm. If a path from the start node
+              to the end node exists, a light blue path will be drawn at the conclusion of the algorithm. Otherwise, no path will
+              be drawn.</p>
+
+          <p> When a maze generation algorithm is executed, walls will be
+              added, so that pathfinding algorithms must go around them when looking for a valid path. </p>
+
+          <p> The user is also able to add walls or erase walls by checking the Draw Wall checkbox or
+              Erase Wall checkbox, respectively, and dragging their mouse across the grid. </p>
+      </p>
+       </div>
+      <div class = "column">
+        <h2> Other Features </h2>
+        <p> Several other features are in this application. </p>
+        <ul>
+          <li> Clear Board - Clears all animations and walls </li>
+          <li> Speed Slider - Changes the animation speed </li>
+          <li> Draw Wall - If this box is checked, the user can draw walls on the board by dragging the mouse across the grid </li>
+          <li> Erase Wall - If this box is checked, the user can erase walls on the board by dragging the mouse across the grid </li>
+          <li> Show Steps - If this box is checked, the animation for the algorithm will be showed; otherwise, only the final product will be visible </li>
+          <li> Finish Algorithm - If an algorithm is occurring, this button can be pressed to immediately finish it and show the final product </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

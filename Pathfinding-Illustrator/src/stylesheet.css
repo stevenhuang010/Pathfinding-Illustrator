@@ -1,0 +1,107 @@
+.title {
+	-fx-font-family: "Muli";
+	-fx-font-size: 24px;
+	-fx-fill: orchid;
+	-fx-opacity: 0.8;
+}
+
+.text {
+	-fx-font-family: "Muli";
+	-fx-font-size: 12px;
+	-fx-fill: black;
+}
+
+#speed-text {
+	-fx-font-size: 10px;
+	-fx-text-fill: rgb(87, 87, 80);
+}
+
+.button, .toggle-button {
+	-fx-background-radius: 15px;
+    -fx-background-color: gainsboro;
+	-fx-border-color: orchid;
+	-fx-border-width: 2px;
+	-fx-border-radius: 15px;
+	-fx-transition-duration: 0.25s;
+}
+
+.button:hover .text, .toggle-button:hover .text {
+	-fx-fill: gainsboro;
+}
+
+.button:hover, .toggle-button:hover  {
+	-fx-background-color: orchid;
+}
+
+.toggle-button:selected {
+	-fx-background-color: orchid;
+}
+
+.toggle-button:selected .text {
+	-fx-fill: gainsboro;
+}
+
+.toggle-button:selected:hover .text {
+	-fx-fill: white;
+}
+
+.gridpane {
+	-fx-border-color: gainsboro;
+	-fx-border-width: 1px;
+}
+
+.check-box .box {
+	-fx-background-color: orchid;
+	-fx-border-radius: 15px;
+	-fx-background-radius: 15px;
+}
+
+.check-box:selected .mark {
+	-fx-background-color: white;
+}
+
+
+.slider .track {
+	-fx-control-inner-background: orchid;
+}
+
+.slider .thumb {
+	-fx-background-color: gainsboro;
+}
+
+#styledmenu {
+	-fx-background-radius: 15px;
+	-fx-background-color: gainsboro;
+	-fx-border-color: orchid;
+	-fx-border-width: 2px;
+	-fx-border-radius: 15px;
+}
+
+
+#styledmenu:hover .text {
+	-fx-fill: orchid;
+}
+
+#styledmenu:pressed {
+	-fx-background-color: orchid;
+}
+
+#styledmenu:selected .text {
+	-fx-fill: white;
+}
+.context-menu {
+	-fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+	-fx-background-color: white;
+}
+
+.context-menu:hover .menu-item .text {
+	-fx-text-fill: orchid;
+}
+
+.menu-item:focused {
+	-fx-background-color: white;
+}
+
+.menu-item:hover .label {
+	-fx-text-fill: orchid;
+}
