@@ -1,4 +1,4 @@
-# Pathfinding-Project
+# Pathfinding-Illustrator
 This is a tool that helps users understand and picture various pathfinding and maze generation algorithms by illustrating these algorithms step-by-step. 
 
 Implemented algorithms include:
