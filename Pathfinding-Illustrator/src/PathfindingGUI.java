@@ -48,8 +48,8 @@ public class PathfindingGUI extends Application {
 	final int DEFAULT_START_NODE_COL = NUM_COLS / 2 - NODE_OFFSET;
 	final int DEFAULT_END_NODE_ROW = NUM_ROWS / 2;
 	final int DEFAULT_END_NODE_COL = NUM_COLS / 2 + NODE_OFFSET;
-	final Paint START_NODE_COLOR = Color.PINK;
-	final Paint END_NODE_COLOR = Color.LIGHTSKYBLUE;
+	final Paint START_NODE_COLOR = Color.BLACK;
+	final Paint END_NODE_COLOR = Color.rgb(235, 182, 134);
 	final Paint TOP_BAR_COLOR = Color.WHITE;
 	final Paint LEGEND_COLOR = Color.WHITE;
 	final Paint WALL_COLOR = Color.rgb(124, 80, 128);
